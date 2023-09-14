@@ -1,0 +1,163 @@
+@media only screen and (max-width: 1200px) {
+	.hero-text-box{
+		padding: 0 2% !important;
+		width: 100% !important;
+		
+	}
+	.row{
+		padding: 0 2% !important;
+	}
+}
+
+
+
+@media only screen and (max-width: 1023px) {
+	.hero-text-box{
+		padding: 0 2% !important;
+		width: 100% !important;
+		
+	}
+	body {
+		font-size: 18px !important;
+	}
+	section {
+		padding: 60px 0 !important;
+	}
+	.long-copy {
+		width: 80% !important;
+		margin-left: 10% !important;
+		margin-right: 10% !important;
+	}
+
+	
+}
+
+@media only screen and (max-width: 767px) {
+	body{
+		font-size: 16px !important;
+	}
+	section {
+		padding: 30px 0 !important;
+	}
+	.row,
+	.hero-text {
+		padding: 0 4% !important;
+	}
+	.col {
+		width: 100% !important;
+		margin: 0 0 4% 0 !important;
+	}
+
+	.main-nav {
+		display: none !important;
+	}
+
+	.main-nav {
+		float: left !important;
+		margin-top: 35px !important;
+		margin-left: 25px !important;
+	}
+	
+	.main-nav li {
+		display: block !important;
+	}
+
+	.main-nav li a:link, 
+	.main-nav li a:visited {
+		display: block !important;
+		border: 0 !important;
+		padding: 10px 0 !important;
+		font-size: 1em !important;
+	}
+
+	.mobile-nav-icon {
+		display: inline-block !important;
+	}
+
+	.sticky .main-nav {
+	margin-top: 10px !important;
+	}
+
+	.sticky .main-nav li a:link,
+	.sticky .main-nav li a:visited {
+		padding: 10px 0 !important;
+	}
+
+	.sticky .mobile-nav-icon {
+		margin-top: 10px !important;
+	}
+
+	.sticky .mobile-nav-icon i {
+		color: #555 !important;
+	}
+
+
+	.long-copy {
+		width: 100% !important;
+		margin-left: 0% !important;
+	}
+	h1 {
+		font-size: 1.8em !important;
+	}
+	h2 {
+		font-size: 1.5em !important;
+	}
+	.steps-box:first-child {
+		text-align: center !important;
+		margin-top: 10px !important;
+	}
+	.steps-box:last-child {
+		margin-top: 20px !important;
+	}
+	.works-steps {
+		margin-bottom: 30px !important;
+	}
+	.works-steps div {
+		height: 40px !important;
+		width: 40px !important;
+		margin-right: 15px !important;
+		padding: 4px !important;
+		font-size: 1.2em !important;
+	}
+	.works-steps:last-of-type {
+		margin-bottom: 30px !important;
+	}
+	.app-screen {
+		width: 40% !important;
+	}
+	input[type="submit"] {
+		width: 100% !important;
+	}
+
+	.map-box {
+		width: 100% !important;
+		height: auto !important;
+		position: relative !important;
+	}
+
+	.map {
+		width: 100% !important;
+		height: 300px !important;
+		position: relative !important;
+		z-index: 0 !important;
+	}
+
+	.form-box {
+		position: relative !important;
+		width: 100% !important;
+		height: auto !important;
+		padding: 30px 20px 0 30px !important;
+	}
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+	section {
+		padding: 25px 0 !important;
+	}
+	.section-form {
+		width: 100% !important;
+	}
+}
